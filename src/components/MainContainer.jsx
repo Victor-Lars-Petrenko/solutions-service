@@ -21,7 +21,7 @@ export default function MainContainer() {
           <li className='buttons__item'><button className='icon-button'><img src="/img/insta.png" alt="inst" className='icon-button__image ' /></button></li>
           <li className='buttons__item'><button className='icon-button'><img src="/img/x.png" alt="x" className='icon-button__image ' /></button></li>
         </ul>
-        <section class="it-solutions">
+        <section className="it-solutions">
           <h5 className='section__small-title'>IT SOLUTIONS</h5>
           <section className="high-titles">
           <h1 className='section__big-title'>Providing The Best </h1>

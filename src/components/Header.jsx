@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <section className="container">
     <header className='header'>
-    <figure class="logo">
-    <span class="logo__circle"></span>
-    <span class="logo__zaokrkvadrat"></span>
-    <span class="logo__text">Logo</span>
+    <figure className="logo">
+    <span className="logo__circle"></span>
+    <span className="logo__zaokrkvadrat"></span>
+    <span className="logo__text">Logo</span>
   </figure>
       <nav className="nav">
     <ul className="nav__list">

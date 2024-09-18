@@ -2,11 +2,31 @@ import React, { useState } from "react";
 import "../styles/Footer.scss";
 
 export default function Footer() {
-  const [email, setEmail] = useState();
+  const [email, setEmail] = useState("");
+  const [emailMessage, setEmailMessage] = useState("");
 
-  const onEmailChange = (e) => {
+  const onEmailChange = e => {
     const newEmail = e.target.value;
     setEmail(newEmail);
+  };
+
+  const onEmailSubmit = e => {
+    e.preventDefault();
+    const trimmedEmail = e.target.email.value.trim();
+    if (trimmedEmail === "") {
+      setEmailMessage("Please, write your email");
+      return;
+    }
+    validateEmail(trimmedEmail);
+  };
+
+  const validateEmail = email => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setEmailMessage("Invalid email address");
+    } else {
+      setEmailMessage("You have successfully subscribed to our page!");
+    }
   };
 
   return (
@@ -14,10 +34,10 @@ export default function Footer() {
       <section className="footer__wrapper">
         <section className="footer__titles">
           <section className="footer__group-text-info">
-            <figure class="logo footer__logo">
-              <span class="logo__circle footer__logo-circle"></span>
-              <span class="logo__zaokrkvadrat"></span>
-              <span class="logo__text footer__another-logo-text">Logo</span>
+            <figure className="logo footer__logo">
+              <span className="logo__circle footer__logo-circle"></span>
+              <span className="logo__zaokrkvadrat"></span>
+              <span className="logo__text footer__another-logo-text">Logo</span>
             </figure>
             <article className="footer__paragraphes">
               <p className="footer__paragraphes-paragraph">
@@ -39,16 +59,23 @@ export default function Footer() {
                   Subscribe To Our News Letter
                 </p>
               </article>
-              <article className="footer__form-mail-container">
+              <form
+                className="footer__form-mail-container"
+                onSubmit={onEmailSubmit}
+              >
                 <input
                   className="footer__form-input"
                   placeholder="Email Address"
                   name="email"
                   value={email}
                   onChange={onEmailChange}
+                  autoComplete="off"
                 />
 
-                <button className="section__button--arrow-button footer__button--another-button">
+                <button
+                  className="section__button--arrow-button footer__button--another-button"
+                  type="submit"
+                >
                   <span className="button--arrow-button__text button--another-button__text ">
                     Subscribe
                   </span>
@@ -58,11 +85,16 @@ export default function Footer() {
                     className="button--arrow-button__icon button--another-button__icon "
                   />
                 </button>
-              </article>
+              </form>
               <article className="footer__personal-info">
                 <p className="footer__personal-info-paragraph">
                   *We Will Not Share Your Personal Info
                 </p>
+                {emailMessage && (
+                  <p className="footer__personal-info-paragraph">
+                    {emailMessage}
+                  </p>
+                )}
               </article>
             </section>
           </section>
@@ -217,7 +249,7 @@ export default function Footer() {
         <section className="footer__down-content">
           <article className="footer__info-creator">
             <p className="footer__info-creator-paragraph">
-              © 2024 Created by: Martin
+              © 2024 Created by: Martin
             </p>
           </article>
           <article className="footer__privacy">

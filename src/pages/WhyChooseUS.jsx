@@ -2,8 +2,6 @@ import React from 'react'
 import '../styles/WhyChooseUs.scss'
 import '../styles/BigNumber.scss'
 
-
-
 export default function WhyChooseUS() {
   return (
     <section className='choose__container'>
@@ -29,7 +27,7 @@ export default function WhyChooseUS() {
         </section>
         <section className='choose__right-side'>
         <article className='choose__right-side-container'>
-                <article className='section__article–first'>
+                <article className='section__article-first'>
                 <section className=' choose__section-group-text--1'>
                 <h1 className='section__big-number'>01.</h1>
                 <p className='section__article-title'>Latest Technologies</p>
@@ -40,7 +38,7 @@ export default function WhyChooseUS() {
                 <p className='section__paragraph'>dolore obcaecati. </p>
                 </section>
                 </article>
-                <article className='section__article–second'>
+                <article className='section__article-second'>
                 <section className=' choose__section-group-text--2'>
                 <h1 className='section__big-number'>02.</h1>
                 <p className='section__article-title'>Uniqe Solutions</p>
@@ -51,7 +49,7 @@ export default function WhyChooseUS() {
                 <p className='section__paragraph'>dolore obcaecati. </p>
                 </section>
                 </article>
-                <article className='section__article–third'>
+                <article className='section__article-third'>
                   <section className=' choose__section-group-text--3'>
                 <h1 className='section__big-number'>03.</h1>
                 <p className='section__article-title'>Powerful Strategies</p>

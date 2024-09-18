@@ -8,7 +8,7 @@ export default function Testimonials() {
     <section className='testimonials__container'>
         <article className='testimonials__info'>
             <h5 className='section__small-title'>TESTIMONIALS</h5>
-            <h1 className='section__big-title'>Customers Testmonials</h1>
+            <h1 className='section__big-title'>Customers Testmonials</h1>
         </article>
         <article className='testimonials__form-container'>
           <article className='testimonials__form-wrapper'>

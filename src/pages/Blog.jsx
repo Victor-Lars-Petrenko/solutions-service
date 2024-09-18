@@ -10,7 +10,7 @@ export default function Blog() {
                 <section className='blog__text-info'>
                     <article className='blog__group-titles'>
                     <h5 className='section__small-title'>BLOG</h5>
-                    <h1 className='section__big-title'>Latest News</h1>
+                    <h1 className='section__big-title'>Latest News</h1>
                     </article>
                     <button className='section__button--arrow-button blog__text-info-button'>
                         <span className='button--arrow-button__text'>See all posts</span>
@@ -27,11 +27,11 @@ export default function Blog() {
                             <section className='blog__group-all-info'>
                             <article className='blog__small-buttons'>
                                 <button className='section__button-icon'>
-                                    <span class="small-button--text">05 oct 2024</span>
-                                    <img src="/img/calendar.png" alt="calend" class="small-button--icon" />
+                                    <span className="small-button--text">05 oct 2024</span>
+                                    <img src="/img/calendar.png" alt="calend" className="small-button--icon" />
                                 </button>
                                 <button className='section__button-icon'>
-                                    <span class="small-button--text">Hosting</span>
+                                    <span className="small-button--text">Hosting</span>
                                 </button>
                             </article>
                             <article className='blog__info'>
@@ -68,11 +68,11 @@ export default function Blog() {
                             <section className='blog__group-all-info'>
                             <article className='blog__small-buttons'>
                                 <button className='section__button-icon'>
-                                    <span class="small-button--text">05 oct 2024</span>
-                                    <img src="/img/calendar.png" alt="calend" class="small-button--icon" />
+                                    <span className="small-button--text">05 oct 2024</span>
+                                    <img src="/img/calendar.png" alt="calend" className="small-button--icon" />
                                 </button>
                                 <button className='section__button-icon'>
-                                    <span class="small-button--text">Hosting</span>
+                                    <span className="small-button--text">Hosting</span>
                                 </button>
                             </article>
                             <article className='blog__info'>
@@ -109,11 +109,11 @@ export default function Blog() {
                             <section className='blog__group-all-info'>
                             <article className='blog__small-buttons'>
                                 <button className='section__button-icon'>
-                                    <span class="small-button--text">05 oct 2024</span>
-                                    <img src="/img/calendar.png" alt="calend" class="small-button--icon" />
+                                    <span className="small-button--text">05 oct 2024</span>
+                                    <img src="/img/calendar.png" alt="calend" className="small-button--icon" />
                                 </button>
                                 <button className='section__button-icon'>
-                                    <span class="small-button--text">Hosting</span>
+                                    <span className="small-button--text">Hosting</span>
                                 </button>
                             </article>
                             <article className='blog__info'>

@@ -4,9 +4,6 @@ import '../styles/BiggerNumber.scss'
 import '../styles/HorizontalLine.scss'
 import '../styles/BlackButton.scss'
 
-
-
-
 export default function PricingPlans() {
     return (
         <section className='plans__container'>
