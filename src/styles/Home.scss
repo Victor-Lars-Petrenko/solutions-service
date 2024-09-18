@@ -1,0 +1,24 @@
+:root{
+    --main-color:  #E2E6EE;
+    
+}
+
+.Home {
+    position: relative;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    border-radius: 0 0 72px 72px;
+    overflow: hidden;
+    padding: 124px 228px;
+   
+}
+
+
+    .home__button{
+         margin-bottom: 300px;
+         left: 50%;
+         transform: translateX(-50%);
+            
+    }
