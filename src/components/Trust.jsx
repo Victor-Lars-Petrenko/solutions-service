@@ -31,7 +31,7 @@ export default function Trust() {
       </article>
       <button className="section__button--down-button trust__another-button">
         <img
-          src="../assets/img/arrow_down.png"
+          src="/img/arrow_down.png"
           alt="arow_don"
           className="button--down-button__icon"
         />

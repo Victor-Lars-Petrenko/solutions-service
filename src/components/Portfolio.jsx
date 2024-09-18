@@ -44,28 +44,28 @@ export default function Portfolio() {
           <ul className="portfolio__images-list portfolio__images-list--1">
             <li className="portfolio__images-item portfolio__images-item--1">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
             </li>
             <li className="portfolio__images-item portfolio__images-item--2">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
             </li>
             <li className="portfolio__images-item portfolio__images-item--3">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
             </li>
             <li className="portfolio__images-item portfolio__images-item--4">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
@@ -74,28 +74,28 @@ export default function Portfolio() {
           <ul className="portfolio__images-list portfolio__images-list--2">
             <li className="portfolio__images-item portfolio__images-item--5">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
             </li>
             <li className="portfolio__images-item portfolio__images-item--6">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
             </li>
             <li className="portfolio__images-item portfolio__images-item--7">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
             </li>
             <li className="portfolio__images-item portfolio__images-item--8">
               <img
-                src="../assets/img/online_gifting.png"
+                src="/img/online_gifting.png"
                 alt="gift"
                 className="portfolio__images-item__image "
               />
@@ -105,7 +105,7 @@ export default function Portfolio() {
       </section>
       <button className="section__button--down-button portfolio__another-button">
         <img
-          src="../assets/img/arrow_down.png"
+          src="/img/arrow_down.png"
           alt="arow_don"
           className="button--down-button__icon"
         />

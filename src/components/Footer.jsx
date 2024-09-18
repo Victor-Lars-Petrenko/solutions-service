@@ -80,7 +80,7 @@ export default function Footer() {
                     Subscribe
                   </span>
                   <img
-                    src="../assets/img/arrow.png"
+                    src="/img/arrow.png"
                     alt="arrow"
                     className="button--arrow-button__icon button--another-button__icon "
                   />
@@ -103,7 +103,7 @@ export default function Footer() {
             <ul className="footer__list">
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -111,7 +111,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -127,7 +127,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -140,7 +140,7 @@ export default function Footer() {
             <ul className="footer__list">
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -148,7 +148,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -156,7 +156,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -164,7 +164,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/open.png"
+                  src="/img/open.png"
                   alt="open"
                   className="footer__list-item-icon"
                 />
@@ -177,7 +177,7 @@ export default function Footer() {
             <ul className="footer__list">
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/email.png"
+                  src="/img/email.png"
                   alt="email"
                   className="footer__list-item-icon"
                 />
@@ -187,7 +187,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/mapa.png"
+                  src="/img/mapa.png"
                   alt="mapa"
                   className="footer__list-item-icon"
                 />
@@ -197,7 +197,7 @@ export default function Footer() {
               </li>
               <li className="footer__list-item">
                 <img
-                  src="../assets/img/call.png"
+                  src="/img/call.png"
                   alt="call"
                   className="footer__list-item-icon"
                 />
@@ -208,7 +208,7 @@ export default function Footer() {
                   <li className="buttons__item">
                     <button className="icon-button footer__item-button">
                       <img
-                        src="../assets/img/facebook.png"
+                        src="/img/facebook.png"
                         alt="face"
                         className="icon-button__image footer__item-icon"
                       />
@@ -217,7 +217,7 @@ export default function Footer() {
                   <li className="buttons__item">
                     <button className="icon-button footer__item-button">
                       <img
-                        src="../assets/img/youtube.png"
+                        src="/img/youtube.png"
                         alt="yout"
                         className="icon-button__image footer__item-icon"
                       />
@@ -226,7 +226,7 @@ export default function Footer() {
                   <li className="buttons__item">
                     <button className="icon-button footer__item-button">
                       <img
-                        src="../assets/img/insta.png"
+                        src="/img/insta.png"
                         alt="inst"
                         className="icon-button__image  footer__item-icon"
                       />
@@ -235,7 +235,7 @@ export default function Footer() {
                   <li className="buttons__item">
                     <button className="icon-button footer__item-button">
                       <img
-                        src="../assets/img/x.png"
+                        src="/img/x.png"
                         alt="x"
                         className="icon-button__image  footer__item-icon"
                       />

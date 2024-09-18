@@ -18,7 +18,7 @@ export default function Header() {
                 <span className="header__group-info">
                   Home
                   <img
-                    src="../assets/img/circles.png"
+                    src="/img/circles.png"
                     alt="circles"
                     className="header__list-icon"
                   />{" "}

@@ -26,12 +26,12 @@ export default function InfoBlock() {
           <p className='section__paragraph'>Nesciunt tempora reiciendis libero voluptate!</p>
           </section>
           <button className='section__button--arrow-button'>
-            <span className='button--arrow-button__text'>Get in touch</span><img src="../assets/img/arrow.png" alt="arrow" className='button--arrow-button__icon ' /></button>
+            <span className='button--arrow-button__text'>Get in touch</span><img src="/img/arrow.png" alt="arrow" className='button--arrow-button__icon ' /></button>
       </article>
       <section className='form-sections--1'>
       <article className='form-sections__article first-on-field'>
         <article className='form-sections__article-group-info'>
-      <img src="../assets/img/star.png" alt="star" className='easy-to-reach__icon'/>
+      <img src="/img/star.png" alt="star" className='easy-to-reach__icon'/>
         <h1 className='section__article-title'>First On Field</h1>
         </article>
         <section className='section__paragraphes'>
@@ -42,7 +42,7 @@ export default function InfoBlock() {
       </article>
       <article className='form-sections__article easy-to-reach'>
       <article className='form-sections__article-group-info'>
-        <img src="../assets/img/agree.png" alt="aree" className='easy-to-reach__icon'/>
+        <img src="/img/agree.png" alt="aree" className='easy-to-reach__icon'/>
         <h1 className='section__article-title'>Easy To Reach</h1>
         </article>
         <section className='section__paragraphes'>
@@ -55,7 +55,7 @@ export default function InfoBlock() {
       <section className='form-sections--2'>
       <article className='form-sections__article worldwide-service'>
       <article className='form-sections__article-group-info'>
-      <img src="../assets/img/map.png" alt="map" className='easy-to-reach__icon'/>
+      <img src="/img/map.png" alt="map" className='easy-to-reach__icon'/>
       <h1 className='section__article-title'>Worldwide <br /> services</h1>
       </article>
         <section className='section__paragraphes'>
@@ -66,7 +66,7 @@ export default function InfoBlock() {
       </article>
       <article className='form-sections__article 24/7-support'>
       <article className='form-sections__article-group-info'>
-      <img src="../assets/img/question.png" alt="quest" className='easy-to-reach__icon'/>
+      <img src="/img/question.png" alt="quest" className='easy-to-reach__icon'/>
       <h1 className='section__article-title'>24/7 Support</h1>
       </article>
         <section className='section__paragraphes'>
@@ -79,7 +79,7 @@ export default function InfoBlock() {
      
       </section>
       <button className='section__button--down-button'>
-        <img src="../assets/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
+        <img src="/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
         </button>
     </section>
     

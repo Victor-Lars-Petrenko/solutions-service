@@ -7,11 +7,7 @@ export default function WhyChooseUS() {
     <section className="choose__container">
       <section className="choose__left-side">
         <article className="choose__left-side-container">
-          <img
-            src="../assets/img/business.png"
-            alt="busin"
-            className="container__img"
-          />
+          <img src="/img/business.png" alt="busin" className="container__img" />
           <h5 className="section__small-title">WHY CHOOSE US</h5>
           <section className="container__big-titles">
             <h1 className="section__big-title">Why Our Customers</h1>
@@ -36,7 +32,7 @@ export default function WhyChooseUS() {
           <button className="section__button--arrow-button">
             <span className="button--arrow-button__text">Get in touch</span>
             <img
-              src="../assets/img/arrow.png"
+              src="/img/arrow.png"
               alt="arrow"
               className="button--arrow-button__icon "
             />
@@ -95,7 +91,7 @@ export default function WhyChooseUS() {
 
       <button className="section__button--down-button">
         <img
-          src="../assets/img/arrow_down.png"
+          src="/img/arrow_down.png"
           alt="arow_don"
           className="button--down-button__icon"
         />
