@@ -15,10 +15,10 @@ export default function Testimonials() {
             <ul className='testimonials__users-list'>
             <li className='testimonials__list-item'>
                   <article className='testimonials__images-info'>
-                <img src="/img/quotes.png" alt="quot" className='testimonials__list-item-icon'/>
+                <img src="../assets/img/quotes.png" alt="quot" className='testimonials__list-item-icon'/>
                  
                   <figure className='testimonials__avtor-info'>
-                  <img src="/img/avatar.png" alt="avatar" className='testimonials__avtor-info-icon'/>
+                  <img src="../assets/img/avatar.png" alt="avatar" className='testimonials__avtor-info-icon'/>
                   <figcaption>
               <span className="figcaption__name testimonials__paragraph-another-text">Fairouz Mhmd</span><br/>
               <span className="figcaption__title testimonials__title-another-text">Manager</span>
@@ -35,10 +35,10 @@ export default function Testimonials() {
                 </li>
                 <li className='testimonials__list-item'>
                   <article className='testimonials__images-info'>
-                <img src="/img/quotes.png" alt="quot" className='testimonials__list-item-icon'/>
+                <img src="../assets/img/quotes.png" alt="quot" className='testimonials__list-item-icon'/>
                  
                   <figure className='testimonials__avtor-info'>
-                  <img src="/img/avatar.png" alt="avatar" className='testimonials__avtor-info-icon'/>
+                  <img src="../assets/img/avatar.png" alt="avatar" className='testimonials__avtor-info-icon'/>
                   <figcaption>
               <span className="figcaption__name testimonials__paragraph-another-text">Fairouz Mhmd</span><br/>
               <span className="figcaption__title testimonials__title-another-text">Manager</span>
@@ -55,10 +55,10 @@ export default function Testimonials() {
                 </li>
                 <li className='testimonials__list-item'>
                   <article className='testimonials__images-info'>
-                <img src="/img/quotes.png" alt="quot" className='testimonials__list-item-icon'/>
+                <img src="../assets/img/quotes.png" alt="quot" className='testimonials__list-item-icon'/>
                  
                   <figure className='testimonials__avtor-info'>
-                  <img src="/img/avatar.png" alt="avatar" className='testimonials__avtor-info-icon'/>
+                  <img src="../assets/img/avatar.png" alt="avatar" className='testimonials__avtor-info-icon'/>
                   <figcaption>
               <span className="figcaption__name testimonials__paragraph-another-text">Fairouz Mhmd</span><br/>
               <span className="figcaption__title testimonials__title-another-text">Manager</span>
@@ -78,7 +78,7 @@ export default function Testimonials() {
             </article>
         </article>
         <button className='section__button--down-button testimonials__another-button'>
-        <img src="/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
+        <img src="../assets/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
         </button>  
     </section>
   )

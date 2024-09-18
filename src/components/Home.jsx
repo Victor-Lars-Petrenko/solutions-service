@@ -12,7 +12,7 @@ export default function Home() {
       
     </main>
      <button className='section__button--down-button home__button'>
-     <img src="/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
+     <img src="../assets/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
      </button>
      </>
   )

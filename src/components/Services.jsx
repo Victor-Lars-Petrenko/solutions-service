@@ -9,7 +9,7 @@ export default function Services() {
         <article className="services__article services__article--1">
           <article className="services__wrapper-image">
             <img
-              src="/img/video_conference.png"
+              src="../assets/img/video_conference.png"
               alt="video"
               className="services__image"
             />
@@ -30,7 +30,7 @@ export default function Services() {
                 See all services
               </span>
               <img
-                src="/img/arrow.png"
+                src="../assets/img/arrow.png"
                 alt="arrow"
                 className="button--arrow-button__icon "
               />
@@ -57,7 +57,7 @@ export default function Services() {
                 {" "}
                 <span className="button--read-more__text">Read more</span>{" "}
                 <img
-                  src="/img/more_button.png"
+                  src="../assets/img/more_button.png"
                   alt="more"
                   className="button--read-more__image"
                 />
@@ -106,7 +106,7 @@ export default function Services() {
       </section>
       <button className="section__button--down-button">
         <img
-          src="/img/arrow_down.png"
+          src="../assets/img/arrow_down.png"
           alt="arow_don"
           className="button--down-button__icon"
         />

@@ -19,7 +19,7 @@ export default function PricingPlans() {
             </section>
             <button className='section__button--arrow-button plans__group-button'>
             <span className='button--arrow-button__text '>See all plans</span>
-            <img src="/img/arrow.png" alt="arrow" className='button--arrow-button__icon ' />
+            <img src="../assets/img/arrow.png" alt="arrow" className='button--arrow-button__icon ' />
             </button>
             </section>
             <section className='plans__features'>
@@ -35,19 +35,19 @@ export default function PricingPlans() {
                     </article>
                     <ul className='plans__features-list'>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>150 Lorem, Ipsum Dolor.</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>20 Lorem Ipsum Dolor Sit </span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>Lorem Ipsum Dolor Sit.</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>Free Lorem Ipsum Dolor</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>Added Lorem Ipsum Dolo</span></li>
                     </ul>
                     <button className='section__black-button plans__features-button'><span className='black-button--text'>Select plan</span></button>
@@ -64,19 +64,19 @@ export default function PricingPlans() {
                     </article>
                     <ul className='plans__features-list'>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>150 Lorem, Ipsum Dolor.</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>20 Lorem Ipsum Dolor Sit </span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>Lorem Ipsum Dolor Sit.</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>Free Lorem Ipsum Dolor</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <span className='plans__features-text section__paragraph'>Added Lorem Ipsum Dolo</span></li>
                     </ul>
                     <button className='section__black-button plans__features-button'><span className='black-button--text'>Select plan</span></button>
@@ -86,7 +86,7 @@ export default function PricingPlans() {
                         <article className='plans__group-info'>
                         <h5 className='section__small-title'>PRO</h5>
                         <button className='button button--best-offer'>
-                            <img src="/img/star_icon.png" alt="star" className='button--best-offer-button__icon' /><span className='button--best-offer-button__text '>Best offer</span></button>
+                            <img src="../assets/img/star_icon.png" alt="star" className='button--best-offer-button__icon' /><span className='button--best-offer-button__text '>Best offer</span></button>
                             </article>
                         <h1 className='section__bigger-number plans__big-heading'>$150
                             <span className='section__paragraph'>/Per Project</span></h1>
@@ -97,19 +97,19 @@ export default function PricingPlans() {
                     </article>
                     <ul className='plans__features-list'>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
                             <span className='plans__features-text section__paragraph'>150 Lorem, Ipsum Dolor.</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
                             <span className='plans__features-text section__paragraph'>20 Lorem Ipsum Dolor Sit </span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
                             <span className='plans__features-text section__paragraph'>Lorem Ipsum Dolor Sit.</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
                             <span className='plans__features-text section__paragraph'>Free Lorem Ipsum Dolor</span></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon plans__features--another-icon' />
                             <span className='plans__features-text section__paragraph'>Added Lorem Ipsum Dolo</span></li>
                     </ul>
                     <button className='section__black-button plans__features-button  '><span className='black-button--text plans__button--another-text'>Select plan</span></button>
@@ -126,19 +126,19 @@ export default function PricingPlans() {
                     </article>
                     <ul className='plans__features-list'>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <p className='plans__features-text section__paragraph'>150 Lorem, Ipsum Dolor.</p></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <p className='plans__features-text section__paragraph'>20 Lorem Ipsum Dolor Sit </p></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <p className='plans__features-text section__paragraph'>Lorem Ipsum Dolor Sit.</p></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <p className='plans__features-text section__paragraph'>Free Lorem Ipsum Dolor</p></li>
                         <li className='plans__features-list-item'>
-                            <img src="/img/check.png" alt="check" className='plans__features-icon' />
+                            <img src="../assets/img/check.png" alt="check" className='plans__features-icon' />
                             <p className='plans__features-text section__paragraph'>Added Lorem Ipsum Dolo</p></li>
                     </ul>
                     <button className='section__black-button plans__features-button'><span className='black-button--text'>Select plan</span></button>
@@ -146,7 +146,7 @@ export default function PricingPlans() {
             </section>
             </section>
             <button className='section__button--down-button'>
-        <img src="/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
+        <img src="../assets/img/arrow_down.png" alt="arow_don" className='button--down-button__icon' />
         </button>
         </section>
        

@@ -1,33 +1,33 @@
-import Home from "./pages/Home"
-import InfoBlock from "./pages/InfoBlock";
-import Services from "./pages/Services";
-import Stats from "./pages/Stats";
-import WhyChooseUS from "./pages/WhyChooseUS";
-import Portfolio from "./pages/Portfolio";
-import Trust from "./pages/Trust";
-import PricingPlans from './pages/PricingPlans'
-import Testimonials from "./pages/Testimonials";
-import Blog from "./pages/Blog";
+import Home from "./components/Home";
+import InfoBlock from "./components/InfoBlock";
+import Services from "./components/Services";
+import Stats from "./components/Stats";
+import WhyChooseUS from "./components/WhyChooseUS";
+import Portfolio from "./components/Portfolio";
+import Trust from "./components/Trust";
+import PricingPlans from "./components/PricingPlans";
+import Testimonials from "./components/Testimonials";
+import Blog from "./components/Blog";
 import Footer from "./components/Footer";
-import Header from './components/Header';
-import './styles/App.scss'
+import Header from "./components/Header";
+import "./styles/App.scss";
 
 function App() {
   return (
-    <div>
-    <Header/>
-    <Home/>
-    <InfoBlock/>
-    <Services/>
-    <WhyChooseUS/>
-    <Stats/>
-    <Portfolio/>
-    <Trust/>
-    <PricingPlans/>
-    <Testimonials/>
-    <Blog/>
-    <Footer/>
-   </div>
+    <>
+      <Header />
+      <Home />
+      <InfoBlock />
+      <Services />
+      <WhyChooseUS />
+      <Stats />
+      <Portfolio />
+      <Trust />
+      <PricingPlans />
+      <Testimonials />
+      <Blog />
+      <Footer />
+    </>
   );
 }
 
