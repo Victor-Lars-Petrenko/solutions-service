@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/bogdan-test/static/css/main.68fa1c04.css",
-    "main.js": "/bogdan-test/static/js/main.983fa468.js",
-    "index.html": "/bogdan-test/index.html",
-    "main.68fa1c04.css.map": "/bogdan-test/static/css/main.68fa1c04.css.map",
-    "main.983fa468.js.map": "/bogdan-test/static/js/main.983fa468.js.map"
+    "main.css": "/solutions-service/static/css/main.68fa1c04.css",
+    "main.js": "/solutions-service/static/js/main.983fa468.js",
+    "index.html": "/solutions-service/index.html",
+    "main.68fa1c04.css.map": "/solutions-service/static/css/main.68fa1c04.css.map",
+    "main.983fa468.js.map": "/solutions-service/static/js/main.983fa468.js.map"
   },
   "entrypoints": [
     "static/css/main.68fa1c04.css",
